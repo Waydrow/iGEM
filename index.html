@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 使IE用最高模式渲染页面 -->
+    <meta name="renderer" content="webkit">
+    <!-- 极速模式 -->
+    <title>Team:OUC-China</title>
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <style>
+        .banner-top{
+            margin-left: 12%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <span class="menu"> Menu</span>
+                <div class="banner-top">
+                    <ul class="nav banner-nav">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li class="dropdown1"><a class="down-scroll" href="#">PROJECT</a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Mag-receiver</a></li>
+                                <li><a href="#">Thermo-regulator</a></li>
+                                <li><a href="#">Hardware</a></li>
+                                <li><a href="#">Results</a></li>
+                                <li><a href="#">Parts</a></li>
+                                <li><a href="#">Achievements</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown1"><a href="#">INTERLAB</a>
+                        </li>
+                        <li class="dropdown1"><a class="down-scroll" href="#">MODELING</a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Mag-receiver</a></li>
+                                <li><a href="#">Heating</a></li>
+                                <li><a href="#">Thermo-regulator</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown1"><a class="down-scroll" href="">HUMAN PRACTISE</a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Safety</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Transportation</a></li>
+                                <li><a href="#">Communication</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown1"><a class="down-scroll" href="">NOTE BOOK</a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Lab note</a></li>
+                                <li><a href="#">Model note</a></li>
+                                <li><a href="#">Protocol</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown1"><a class="down-scroll" href="">TEAM</a>
+                            <ul class="dropdown2">
+                                <li><a href="#">Member</a></li>
+                                <li><a href="#">Attribution</a></li>
+                                <li><a href="#">Collaboration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <script>
+                    $("span.menu").click(function() {
+                        $(" ul.nav").slideToggle("slow", function() {});
+                    });
+                    </script>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="banner-container">
+        <div class="banner-content">
+            <img src="images/banner-image_03.png" alt="" class="img-responsive center-block">
+            <h2>Platform for Electromagnetic Control</h2>
+        </div>
+    </div>
+    <div class="container-fluid how-work">
+        <div class="container">
+            <div class="work-header">
+                <h2 class="text-uppercase">
+                    how does it <span>work ?</span>
+                </h2>
+                <p>
+                    This summer we are trying to design a platform for remote regulation of gene expression by electromagnetic signal
+                </p>
+            </div>
+            <div class="row work-content">
+                <div class="col-md-4">
+                    <img src="images/step1_07.png" alt="" class="img-responsive">
+                    <h3 class="text-uppercase text-center">step 1</h3>
+                    <p>This platform is mainly constructed by magnetic receiver and regulator.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/step2_07.png" alt="" class="img-responsive">
+                    <h3 class="text-uppercase text-center">step 2</h3>
+                    <p>
+                        Induced by electromagnetic field，magnetic receiver would be heated.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/step3_07.png" alt="" class="img-responsive">
+                    <h3 class="text-uppercase text-center">step 3</h3>
+                    <p>
+                        In response to a change in temprature, thermosensitive regulator would activate GFP expression.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index-details1 index-details">
+        <div class="container">
+            <h3 class="text-center index-headline">Magnetic <span>Receiver</span></h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="caption">
+                        <p>
+                            For magnetic receiver, we chose Ferritin, the iron-storage protein in organisms, which could synthesize ferric oxihydroxide core in its hollow protein shell. When exposed to electromagnetic field, the ferric oxihydroxide core would be heated, raising the ambient temperature. In this session, we explored measurement techniques for the valuation of magnetism、biomineralization and Protein concentration per cell.
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">More details</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/index-li-image1_15.png" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid index-details2 index-details">
+        <div class="container">
+            <h3 class="text-center index-headline index-headline2">Thermosensitive <span>Regulator</span></h3>
+            <p class="text-center">For thermosensitive regulator，we chose RNA thermometer and designed a thermosensitive T7 RNA polymerase. </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/index-li-image3.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="caption">
+                        <p>
+                            RNA thermometer is a structured RNA which could expose RBS only at appropriate temperature.  In this session, we explored the measurement method to identify the efficiency of thermosensitive regulator under heat stress.
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">More details</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="caption">
+                        <p>
+                            Thermosensitive T7 RNA polymerase is a normal T7 RNA polymerase at whose selected locus was inserted by a temperature-sensitive intein, which could self-splice at specific temperature.
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">More details</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/index-li-image2_15.png" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <address class="center-block">
+                Follow us on Faceboo@ <a href="#">iGEM OUC</a>
+                <br>mail to: <a href="mailto:#">oucigem@163.com</a>
+            </address>
+            <ul class="footer-img">
+                <li>
+                    <img src="images/footer1.png" alt="" class="img-responsive">
+                </li>
+                <li>
+                    <img src="images/footer2.png" alt="" class="img-responsive">
+                </li>
+                <li>
+                    <img src="images/footer3.png" alt="" class="img-responsive">
+                </li>
+                <li>
+                    <img src="images/footer4.png" alt="" class="img-responsive">
+                </li>
+                <li>
+                    <img src="images/footer5.png" alt="" class="img-responsive">
+                </li>
+                <div class="clr"></div>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
