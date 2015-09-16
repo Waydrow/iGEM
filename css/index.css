@@ -501,7 +501,9 @@ footer address:after{
 	position: relative;
 }
 .note li i{
-	margin-left: 85%;
+	position: absolute;
+	left: 92%;
+	top: 26%;
 }
 .noteHide{
 	cursor: auto;
