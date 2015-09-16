@@ -498,6 +498,7 @@ footer address:after{
 	line-height: 50px;
 	/*color: #868586;*/
 	margin: 0 0 0 10px;
+	position: relative;
 }
 .note li i{
 	margin-left: 85%;
