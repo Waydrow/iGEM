@@ -36,7 +36,7 @@ $(document).ready(function($) {
     //     $(this).css('background-color', '#f2f2f2');
     // });
     $(".note li").click(function(event) {
-        $(this).next('div.noteHide').slideToggle();
+        $(this).next('div.noteHide').stop(true,false).slideToggle();
         $(this).toggleClass('toggleNote');
     });
 });
